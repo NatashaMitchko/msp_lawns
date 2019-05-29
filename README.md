@@ -25,3 +25,31 @@ http://127.0.0.1:5000/lawn-status
     "veterans":false
 }
 ```
+
+## Run this at home
+
+Things you need:
+- Python 3.7.3
+- pip 19.1.1
+- virtualenv 16.6.0
+
+1. Clone the repo
+```
+git clone https://github.com/NatashaMitchko/msp_lawns.git
+```
+
+2. Setup and start your `virtualenv`
+```
+virtualenv --clear env
+source env/bin/activate
+```
+
+3. Install requirements
+```
+pip install -r requirements.txt
+```
+
+4. Run it
+```
+python server.py
+```
