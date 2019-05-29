@@ -2,7 +2,7 @@
 
 Which lawns are open today? Here's an endpoint to find out
 
-`/` - returns nothing right now (it will render what's in in `templates/index.html`)
+`/` - returns nothing right now (it will render what's in in `templates/index.html`) *Want to build a front-end? scroll to the bottom*
 
 `/lawn-status` - returns a map `<lawn name>: <bool>`, bool is `True` if lawn is open
 
@@ -53,3 +53,11 @@ pip install -r requirements.txt
 ```
 python server.py
 ```
+
+## Build a Front-End for this Project
+
+There are three blank files:
+- `templates/index.html`
+- `static/main.css`
+- `static/main.js`
+where you can put your front end code.
